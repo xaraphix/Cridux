@@ -12,7 +12,15 @@ module.exports = {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Abel", "Inter"],
+        serif: ["Inter", "Abel"],
+        mono: ["Inter", "Abel"],
+        display: ["Inter", "Abel"],
+        body: ["Inter", "Abel"],
+      },
+    },
   },
   plugins: [
     require('flowbite/plugin'),

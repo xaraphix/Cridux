@@ -3,6 +3,25 @@
 @import "tailwindcss/utilities";
 
 
+@font-face {
+  font-family: 'Abel';
+  font-weight: 100 200 300 400 500 600 700 800 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('../fonts/Abel/Abel.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 100 200 300 400 500 600 700 800 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('../fonts/Inter/Inter.ttf') format('truetype');
+}
+
+
 @layer base {
   :root {
 
