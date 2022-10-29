@@ -31,4 +31,7 @@ cridux-*.tar
 # In case you use Node.js/npm, you want to ignore these.
 npm-debug.log
 /assets/node_modules/
-
+/rel/
+/priv/static/robot*
+/priv/static/fav*
+/priv/static/images/phoenix*
